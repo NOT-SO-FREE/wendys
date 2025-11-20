@@ -25,7 +25,7 @@ const steps = [
 
 const StepsCard = () => {
   return (
-    <div className="relative bg-primary/40 backdrop-blur-sm rounded-lg mb-2 border border-accent/20 shadow-2xl overflow-hidden !rounded-[17px] !my-2 !py-2.5 !p-2.5 !w-[461px] !h-32">
+    <div className="relative bg-primary/40 backdrop-blur-sm rounded-lg mb-2 border border-accent/20 shadow-2xl overflow-hidden !rounded-[17px] !my-2 !py-2.5 !w-[475px] !h-32 !text-center !p-2.5">
       <div
         className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none opacity-10"
         style={{
