@@ -32,7 +32,7 @@ const StepsCard = () => {
           backgroundImage: "url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/holiday-cups-bg-BhWQ8nCZ-9.png')"
         }}>
       </div>
-      <ol className="relative z-10 text-left space-y-1 text-foreground p-2.5 !rounded-none">
+      <ol className="relative z-10 text-left space-y-1 text-foreground p-2.5 !text-base !rounded-none">
         {steps.map((step, index) => {
           const Icon = step.icon;
           return (
