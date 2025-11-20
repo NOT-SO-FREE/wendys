@@ -9,10 +9,8 @@ export const metadata: Metadata = {
   title: "Starbucks Reviewer",
   description: "Claim Your Bearista Cup",
   icons: {
-    icon: "https://i.imgur.com/F4YVx5o.png",
-
-    shortcut: "https://i.imgur.com/F4YVx5o.png",
-
+    icon: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/d864f204-e1ba-40f7-aac1-205adffe8fde/generated_images/starbucks-coffee-logo-icon-circular-gree-70d7ed9e-20251120143904.jpg",
+    shortcut: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/d864f204-e1ba-40f7-aac1-205adffe8fde/generated_images/starbucks-coffee-logo-icon-circular-gree-70d7ed9e-20251120143904.jpg",
   },
 };
 
