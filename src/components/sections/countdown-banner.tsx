@@ -21,7 +21,7 @@ const CountdownBanner = () => {
   const formattedTime = `${minutes}:${seconds.toString().padStart(2, '0')}`;
 
   return (
-    <div className="bg-primary border-b-2 border-accent/30 py-2 px-4 text-center relative z-10 overflow-hidden">
+    <div className="border-b-2 border-accent/30 py-2 px-4 text-center relative z-10 overflow-hidden !bg-[#08472d]">
       <div className="absolute top-0 left-0 right-0 pointer-events-none">
         <div className="flex justify-around">
           <Snowflake className="w-6 h-6 text-white/40 -mt-2" />
@@ -48,8 +48,8 @@ const CountdownBanner = () => {
       <p className="text-foreground/90 text-[10px] mt-0.5">
         Complete the steps before access expires
       </p>
-    </div>
-  );
+    </div>);
+
 };
 
 export default CountdownBanner;
