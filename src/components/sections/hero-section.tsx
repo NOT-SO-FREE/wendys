@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="mb-1.5 flex flex-col items-center">
         <div className="w-8 h-8 mb-0.5">
           <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/icons/starbucks-official-logo-CM364OBT-1.png"
+            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/icons/starbucks-official-logo-CM364OBT-1.png"
             alt="Starbucks Logo"
             width={32}
             height={32}
@@ -16,7 +16,7 @@ const HeroSection = () => {
         </div>
         <div className="w-32 md:w-40 mx-auto">
           <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/starbucks-wordmark-DSD0xIk9-7.png"
+            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/starbucks-wordmark-DSD0xIk9-7.png"
             alt="STARBUCKS"
             width={160}
             height={35}
@@ -28,7 +28,7 @@ const HeroSection = () => {
       <div className="relative mb-1.5 animate-float">
         <div className="relative inline-block">
           <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/bearista-cup-2hsPN7LX-8.png"
+            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/bearista-cup-2hsPN7LX-8.png"
             alt="Bearista Holiday Cup"
             width={96}
             height={145}

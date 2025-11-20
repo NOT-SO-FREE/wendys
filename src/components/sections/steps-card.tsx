@@ -29,7 +29,7 @@ const StepsCard = () => {
       <div
         className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none opacity-10"
         style={{
-          backgroundImage: "url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/holiday-cups-bg-BhWQ8nCZ-9.png')",
+          backgroundImage: "url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/holiday-cups-bg-BhWQ8nCZ-9.png')",
         }}
       ></div>
       <ol className="relative z-10 text-left space-y-1 text-foreground">

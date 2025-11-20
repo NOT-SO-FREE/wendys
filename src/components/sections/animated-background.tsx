@@ -17,42 +17,42 @@ const AnimatedBackground = () => {
 
       <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-15">
         <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/decor-1-Caaj0E8W-1.png"
+          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/decor-1-Caaj0E8W-1.png"
           alt=""
           width={80}
           height={80}
           className="absolute top-24 left-12 w-20 h-20 object-contain animate-float-gentle"
         />
         <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/decor-2-CetU2CYt-2.png"
+          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/decor-2-CetU2CYt-2.png"
           alt=""
           width={80}
           height={80}
           className="absolute top-32 right-16 w-20 h-20 object-contain animate-float-gentle"
         />
         <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/decor-3-BvvZHxFy-3.png"
+          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/decor-3-BvvZHxFy-3.png"
           alt=""
           width={80}
           height={80}
           className="absolute top-1/3 left-20 w-20 h-20 object-contain animate-float-gentle"
         />
         <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/decor-4-DPsKH9Qd-4.png"
+          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/decor-4-DPsKH9Qd-4.png"
           alt=""
           width={80}
           height={80}
           className="absolute top-1/2 right-24 w-20 h-20 object-contain animate-float-gentle"
         />
         <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/decor-5-Bu5L8UkG-5.png"
+          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/decor-5-Bu5L8UkG-5.png"
           alt=""
           width={80}
           height={80}
           className="absolute bottom-40 left-16 w-20 h-20 object-contain animate-float-gentle"
         />
         <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-sbucks.swiftreviewer/assets/images/decor-6-DHDn4Wgt-6.png"
+          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/decor-6-DHDn4Wgt-6.png"
           alt=""
           width={80}
           height={80}
