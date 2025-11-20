@@ -25,14 +25,14 @@ const steps = [
 
 const StepsCard = () => {
   return (
-    <div className="relative bg-primary/40 backdrop-blur-sm rounded-lg mb-2 border border-accent/20 shadow-2xl overflow-hidden !rounded-[17px] !my-2 !py-2.5 !text-center !p-2.5 !w-[480px] !h-32">
+    <div className="relative bg-primary/40 backdrop-blur-sm rounded-lg mb-2 border border-accent/20 shadow-2xl overflow-hidden">
       <div
         className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none opacity-10"
         style={{
           backgroundImage: "url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/d864f204-e1ba-40f7-aac1-205adffe8fde-bucksxmas-com/assets/images/holiday-cups-bg-BhWQ8nCZ-9.png')"
         }}>
       </div>
-      <ol className="relative z-10 text-left space-y-1 text-foreground">
+      <ol className="relative z-10 text-left space-y-1 text-foreground p-2.5">
         {steps.map((step, index) => {
           const Icon = step.icon;
           return (
