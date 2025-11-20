@@ -17,12 +17,12 @@ export default function Home() {
         
         <StepsCard />
         
-        <div className="text-center">
+        <div className="text-center !block !px-[90px] !py-0 !block !p-0">
           <CtaButton />
         </div>
         
         <SocialFooter />
       </main>
-    </div>
-  );
+    </div>);
+
 }
