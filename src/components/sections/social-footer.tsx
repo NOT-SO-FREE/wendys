@@ -7,7 +7,7 @@ const SocialFooter = () => {
         <a
           href="https://www.linkedin.com/company/starbucks"
           aria-label="LinkedIn"
-          className="w-7 h-7 bg-secondary hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl">
+          className="w-7 h-7 hover:bg-accent rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg shadow-xl !bg-[#980f0f]">
 
           <Linkedin className="w-3 h-3 text-foreground" />
         </a>
@@ -27,7 +27,7 @@ const SocialFooter = () => {
         </a>
       </div>
       <footer className="text-foreground/70 text-[9px]">
-        <p className="!text-center">© 2025</p>
+        <p className="!text-center !m-0 !p-0">© 2025</p>
         <p className="!text-center">All rights reserved</p>
       </footer>
     </>);
