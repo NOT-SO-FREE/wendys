@@ -7,7 +7,7 @@ import SocialFooter from '@/components/sections/social-footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen text-foreground relative overflow-hidden !bg-[#053c25]">
+    <div className="min-h-screen relative overflow-hidden !bg-[#053c25] !text-orange-300">
       <AnimatedBackground />
       
       <CountdownBanner />
