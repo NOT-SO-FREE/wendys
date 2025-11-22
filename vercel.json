@@ -1,5 +1,6 @@
 {
-  "buildCommand": "next build",
-  "outputDirectory": ".next",
-  "cleanUrls": true
+  "version": 2,
+  "builds": [
+    { "src": "next.config.ts", "use": "@vercel/next" }
+  ]
 }
