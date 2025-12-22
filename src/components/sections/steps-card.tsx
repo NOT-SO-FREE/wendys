@@ -19,7 +19,7 @@ const steps = [
   },
   {
     icon: Snowflake,
-    text: "Receive your McDonald's gift card",
+    text: "Unlock McDonald's Rewards",
   },
 ];
 
