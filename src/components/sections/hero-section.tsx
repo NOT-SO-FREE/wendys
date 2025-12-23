@@ -32,8 +32,6 @@ const HeroSection = () => {
           McDonald's Gift Card
           <Gift className="w-4 h-4 inline-block !text-[#db1311]" />
         </span>
-        <br />
-        for Free
         <Snowflake className="w-2.5 h-2.5 text-white/60 absolute -bottom-0.5 right-3 animate-pulse" />
       </h1>
 
