@@ -21,7 +21,7 @@ const CountdownBanner = () => {
   const formattedTime = `${minutes}:${seconds.toString().padStart(2, '0')}`;
 
   return (
-    <div className="border-b-2 border-accent/30 py-2 px-4 text-center relative z-10 overflow-hidden !bg-[#981d26]">
+    <div className="border-b-2 border-accent/30 py-2 px-4 text-center relative z-10 overflow-hidden !bg-[#b0171e]">
       <div className="absolute top-0 left-0 right-0 pointer-events-none">
         <div className="flex justify-around">
           <Snowflake className="w-6 h-6 text-white/40 -mt-2" />
@@ -39,7 +39,7 @@ const CountdownBanner = () => {
         <Snowflake className="w-3 h-3 text-white/50 animate-pulse flex-shrink-0" />
         <p className="text-foreground text-xs md:text-sm font-medium">
           <span className="font-bold">
-            You have {formattedTime} minutes left to unlock your $100 McDonald's
+            You have {formattedTime} minutes left to unlock your $500 Wendy's
             Gift Card!
           </span>
         </p>

@@ -15,7 +15,7 @@ const steps = [
   },
   {
     icon: Snowflake,
-    text: 'Complete 3–5 partner offers',
+    text: 'Complete 4–5 partner offers',
   },
   {
     icon: Snowflake,
@@ -25,35 +25,34 @@ const steps = [
 
 const StepsCard = () => {
   return (
-    <div className="relative bg-primary/40 backdrop-blur-sm rounded-lg mb-2 border border-accent/20 shadow-2xl overflow-hidden">
-      <div
-        className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none opacity-10"
-        style={{
-          backgroundImage: "url('/mcdo-foods.webp')",
-        }}
-      ></div>
+    <div className="relative rounded-lg mb-2 border border-[#b0171e] shadow-none overflow-hidden">
+        <div
+          className="absolute inset-0 z-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/wendys-bg.jpg')", opacity: 0.1 }}
+        />
+
       <ol className="relative z-10 text-left space-y-1 text-foreground p-2.5 !text-base !rounded-none">
         {steps.map((step, index) => {
           const Icon = step.icon;
           return (
             <li
               key={index}
-              className="flex items-start gap-1.5 text-[11px] md:text-xs"
+              className="flex items-start gap-1.5 text-[13px] md:text-sm"
             >
               <span
-                className="flex-shrink-0 w-4 h-4 text-primary rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5"
-                style={{ backgroundColor: 'hsl(40 60% 65%)' }}
+                className="flex-shrink-0 w-4 h-4 text-white rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5"
+                style={{ backgroundColor: 'hsl(357.25deg 76.88% 39.02%)' }}
               >
                 {index + 1}
               </span>
               <div className="flex items-center gap-1 flex-1">
                 <span
                   className="flex-shrink-0"
-                  style={{ color: 'hsl(40 60% 65%)' }}
+                  style={{ color: 'hsl(357.25deg 76.88% 39.02%)' }}
                 >
                   <Icon className="w-2.5 h-2.5" />
                 </span>
-                <span className="text-foreground font-medium">{step.text}</span>
+                <span className="text-black font-medium">{step.text}</span>
               </div>
             </li>
           );

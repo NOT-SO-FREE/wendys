@@ -4,11 +4,13 @@ import HeroSection from '@/components/sections/hero-section';
 import StepsCard from '@/components/sections/steps-card';
 import CtaButton from '@/components/sections/cta-button';
 import SocialFooter from '@/components/sections/social-footer';
+import SocialProofPopup from '@/components/sections/social-proof-popup';
 
 export default function Home() {
   return (
-    <div className="min-h-screen relative overflow-hidden !bg-[#6f161d] !text-orange-300">
+    <div className="min-h-screen relative overflow-hidden !bg-white !text-orange-300">
       <AnimatedBackground />
+      <SocialProofPopup />
 
       <CountdownBanner />
 
