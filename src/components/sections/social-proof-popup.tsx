@@ -18,7 +18,7 @@ function randomFrom<T>(arr: T[]): T {
 }
 
 function randomDeals(): number {
-  return Math.floor(Math.random() * 8) + 1; // 1–8 deals
+  return Math.floor(Math.random() * 8) + 1;
 }
 
 function generateMessage(): string {
@@ -27,7 +27,7 @@ function generateMessage(): string {
   const deals = randomDeals();
 
   const templates = [
-    () => `${name} claimed $${amount} 🎁`,
+    () => `${name} claimed $${amount}`,
     () => `${name} completed ${deals} deal${deals > 1 ? "s" : ""}`,
   ];
 
@@ -63,7 +63,7 @@ export default function SocialProofPopup() {
   useEffect(() => {
     if (!mounted) return;
 
-    // ✅ Prevent double timers in Next.js Strict Mode
+    // Prevent double timers in Next.js Strict Mode
     if ((window as any).__SOCIAL_PROOF_STARTED__) return;
     (window as any).__SOCIAL_PROOF_STARTED__ = true;
 
@@ -80,20 +80,20 @@ export default function SocialProofPopup() {
 
   return createPortal(
     <div
+      style={{
+        bottom: "90px",
+        color: "#1f2937",
+      }}
       className={`fixed z-[9999] transition-all duration-300 ease-out
         left-3 inline-flex items-center
         max-w-[85vw] p-3
         md:left-6 md:max-w-[320px] md:p-4
-        rounded-[15px] border border-white/30 shadow-lg
+        rounded-[15px] border border-gray-200 shadow-md bg-white
         ${
           visible
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-2 pointer-events-none"
         }`}
-      style={{
-        bottom: "90px",
-        background: "linear-gradient(135deg, #8b0000, #c41e1e)",
-      }}
     >
       <div className="inline-flex items-center gap-2.5">
         {/* yellow pulse dot */}
@@ -102,7 +102,10 @@ export default function SocialProofPopup() {
           <span className="relative block w-2.5 h-2.5 rounded-full bg-yellow-400" />
         </span>
 
-        <p className="text-white text-[13px] md:text-[14px] font-medium leading-snug whitespace-nowrap m-0">
+        <p
+          style={{ color: "#1f2937" }}
+          className="text-[13px] md:text-[14px] font-medium leading-snug whitespace-nowrap m-0"
+        >
           {message}
         </p>
       </div>
