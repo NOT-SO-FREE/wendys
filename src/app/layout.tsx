@@ -3,7 +3,6 @@ import './globals.css';
 import VisualEditsMessenger from '../visual-edits/VisualEditsMessenger';
 import ErrorReporter from '@/components/ErrorReporter';
 import Script from 'next/script';
-import SocialProofPopup from '@/components/sections/social-proof-popup';
 
 export const metadata: Metadata = {
   title: "Wendy's Rewards",
@@ -40,8 +39,6 @@ export default function RootLayout({
 
         {children}
 
-        {/* 🔥 Social Proof Popup mounted at root */}
-        <SocialProofPopup />
 
         <VisualEditsMessenger />
       </body>
