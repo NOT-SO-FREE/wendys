@@ -6,8 +6,8 @@ import Script from 'next/script';
 import SocialProofPopup from '@/components/sections/social-proof-popup';
 
 export const metadata: Metadata = {
-  title: "McDonald's Reviewer",
-  description: "Claim Your McDonald's Rewards",
+  title: "Wendy's Rewards",
+  description: "Claim Your Wendy's Rewards",
   icons: {
     icon: {
       url: '/mcdo-logo-m.png',

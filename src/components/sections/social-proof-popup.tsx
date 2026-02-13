@@ -7,6 +7,8 @@ const FIRST_NAMES = [
   "Sarah G.", "Mike T.", "Jessica R.", "David L.", "Emma W.",
   "Chris B.", "Ashley M.", "James K.", "Maria S.", "Ryan P.",
   "Amanda H.", "Josh D.", "Katie N.", "Brandon F.", "Nicole C.",
+  "Daniel Jake L.", "John Paul M.", "Mark Anthony R.", "Ryan James T.",
+  "Maria Angelica V.", "Jessica Mae T.", "Ashley Nicole M.", "Angela Rose B."
 ];
 
 const REWARD_AMOUNTS = [50, 100, 150, 250, 300, 500];
@@ -15,13 +17,18 @@ function randomFrom<T>(arr: T[]): T {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
+function randomDeals(): number {
+  return Math.floor(Math.random() * 8) + 1; // 1–8 deals
+}
+
 function generateMessage(): string {
   const name = randomFrom(FIRST_NAMES);
   const amount = randomFrom(REWARD_AMOUNTS);
+  const deals = randomDeals();
 
   const templates = [
-    () => `${name} claimed $${amount}`,
-    () => `${name} completed the review`,
+    () => `${name} claimed $${amount} 🎁`,
+    () => `${name} completed ${deals} deal${deals > 1 ? "s" : ""}`,
   ];
 
   return randomFrom(templates)();
@@ -40,7 +47,6 @@ export default function SocialProofPopup() {
   const showPopup = useCallback(() => {
     let newMessage = generateMessage();
 
-    // prevent same message twice in a row
     while (newMessage === lastMessageRef.current) {
       newMessage = generateMessage();
     }
@@ -75,7 +81,8 @@ export default function SocialProofPopup() {
   return createPortal(
     <div
       className={`fixed z-[9999] transition-all duration-300 ease-out
-        left-3 w-auto max-w-[85vw] p-3
+        left-3 inline-flex items-center
+        max-w-[85vw] p-3
         md:left-6 md:max-w-[320px] md:p-4
         rounded-[15px] border border-white/30 shadow-lg
         ${
@@ -84,18 +91,18 @@ export default function SocialProofPopup() {
             : "opacity-0 translate-y-2 pointer-events-none"
         }`}
       style={{
-        bottom: "90px", // safe for sticky CTA
+        bottom: "90px",
         background: "linear-gradient(135deg, #8b0000, #c41e1e)",
       }}
     >
-      <div className="flex items-center gap-2.5">
+      <div className="inline-flex items-center gap-2.5">
         {/* yellow pulse dot */}
         <span className="relative flex-shrink-0 w-2.5 h-2.5">
           <span className="absolute inset-0 rounded-full bg-yellow-400 animate-ping opacity-75" />
           <span className="relative block w-2.5 h-2.5 rounded-full bg-yellow-400" />
         </span>
 
-      <p className="text-white text-[13px] md:text-[14px] font-medium leading-snug break-words m-0">
+        <p className="text-white text-[13px] md:text-[14px] font-medium leading-snug whitespace-nowrap m-0">
           {message}
         </p>
       </div>
