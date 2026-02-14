@@ -42,7 +42,7 @@ const HeroSection = () => {
           className="font-bold !w-[148px] !h-[17px]"
           style={{ color: 'hsl(357.25deg 76.88% 39.02%)' }}
         >
-          $500 holiday rewards
+          $500 Gift Card
         </span>
         <Sparkles className="w-2.5 h-2.5 text-[#b0171e] inline-block ml-1 animate-pulse" />
       </p>

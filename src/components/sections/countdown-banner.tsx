@@ -39,8 +39,7 @@ const CountdownBanner = () => {
         <Snowflake className="w-3 h-3 text-white/50 animate-pulse flex-shrink-0" />
         <p className="text-foreground text-xs md:text-sm font-medium">
           <span className="font-bold">
-            You have {formattedTime} minutes left to unlock your $500 Wendy's
-            Gift Card!
+            You have {formattedTime} minutes left to unlock your Wendy's reward
           </span>
         </p>
         <Snowflake className="w-3 h-3 text-white/50 animate-pulse flex-shrink-0" />
